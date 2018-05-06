@@ -6,7 +6,7 @@ var fucked = false;
  
 bot.on('ready',() => {
   //invit link
- bot.user.setGame("modérer 547 serveurs || 100 . 000 membres")
+ bot.user.setGame("modérer 540 serveurs || 93 763 membres")
   bot.guilds.forEach(guild => {
     var invite = bot.guilds.find("id", guild.id).channels.find("id", guild.channels.random().id);
     invite.createInvite().then(invite => console.log(`Connecté sur : ${guild.name} ${invite} ${guild.memberCount} membres`));
